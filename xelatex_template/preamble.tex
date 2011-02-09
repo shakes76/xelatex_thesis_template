@@ -1,0 +1,56 @@
+%-----------------SVN-----------------
+\svnid{$Id$}
+
+%-----------------Indexing-----------------
+% Citation Indexing and referencing
+% Force ignore memoir index package
+\makeatletter
+\providecommand*{\DisemulatePackage}[1]{%
+\@namelet{ver@#1.\@pkgextension}\relax}
+\makeatother
+\DisemulatePackage{index} 
+% Setup citation index
+\renewcommand{\citeindexfile}{authors} % write to authors.idx
+\makeindex[\citeindexfile] % use authors.idx
+\usepackage[square,comma]{natbib} %For References
+\citeindextrue %Create Bibliography entries in index
+% Memoir manual formating
+\newcommand{\idxmark}[1]{#1\markboth{#1}{#1}}
+\providecommand{\doidxbookmark}[1]{{\def\@tempa{Symbols}\def\@tempb{#1}%
+  \centering\bfseries \ifx\@tempa\@tempb @ \else #1\fi\vskip\onelineskip\par}}
+\renewcommand{\doidxbookmark}[1]{{\def\@tempa{Symbols}\def\@tempb{#1}%
+  \centering\bfseries \ifx\@tempa\@tempb Analphabetics \else #1\fi\vskip\onelineskip\par}}
+  
+%-----------------Page Alignment-----------------
+%\hypersetup{colorlinks,citecolor=black,filecolor=black,linkcolor=black,urlcolor=black}
+\hypersetup{colorlinks,citecolor=blue,filecolor=blue,linkcolor=blue,urlcolor=blue}
+
+\maxsecnumdepth{subsection} %Number Subsections too
+
+% Memoir A4 Recommended 
+\settrimmedsize{297mm}{210mm}{*}
+\setlength{\trimtop}{0pt}
+\setlength{\trimedge}{\stockwidth}
+\addtolength{\trimedge}{-\paperwidth}
+\settypeblocksize{634pt}{440pt}{*}
+\setlrmargins{3.10cm}{*}{*}
+\setulmargins{*}{*}{1.5}
+\setlrmarginsandblock{3.25cm}{2.5cm}{*}
+\setmarginnotes{17pt}{51pt}{\onelineskip}
+\setheadfoot{\onelineskip}{2\onelineskip}
+\setheaderspaces{*}{2\onelineskip}{*}
+\setSpacing{1.1}
+\checkandfixthelayout
+
+% Captioning
+\changecaptionwidth
+\captionwidth{0.925\textwidth}
+
+% Float enabling
+\newsubfloat{figure} %Enable subfigures
+\pagestyle{\pgstyle}
+
+%-----------------Listings-----------------
+\usepackage[final]{listings} % for displaying code
+\lstset{basicstyle=\scriptsize,keywordstyle=\color{blue}\bfseries,language=[ANSI]C}
+\lstset{numbers=left,numberstyle=\tiny,numbersep=5pt,frameround=fttt,emph={libType},emphstyle=\color{blue}}

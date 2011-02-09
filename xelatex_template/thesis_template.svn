@@ -1,0 +1,19 @@
+% SVN Keyword cache
+
+% Global values:
+\def \svnrev {149}
+\def \svndate {2009-08-09 03:07:41Z}
+\def \svnauthor {shakes}
+\def \svnyear {2009}
+\def \svnmonth {08}
+\def \svnday {09}
+\def \svnhour {03}
+\def \svnminute {07}
+\def \svnsecond {41}
+\def \svntimezonehour {+00}
+\def \svntimezoneminute {00}
+\svn@gdefverb \svnurl {fonts.tex}
+\svn@gdefverb \svnfname {fonts.tex}
+
+
+

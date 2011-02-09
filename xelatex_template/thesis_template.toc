@@ -1,0 +1,16 @@
+\select@language {australian}
+\contentsline {chapter}{Abstract}{i}{chapter*.1}
+\contentsline {chapter}{Acknowledgements}{iii}{chapter*.2}
+\contentsline {chapter}{Contents}{iv}{section*.3}
+\contentsline {chapter}{List of Figures}{v}{section*.4}
+\contentsline {chapter}{List of Tables}{v}{section*.5}
+\contentsline {part}{\partnumberline {I}Introduction}{1}{part.1}
+\contentsline {part}{\partnumberline {II}The Finite Radon Transform}{3}{part.2}
+\contentsline {part}{\partnumberline {III}Ghosts~Theory}{5}{part.3}
+\contentsline {part}{\partnumberline {IV}Appendix}{7}{part.4}
+\contentsline {appendix}{\chapternumberline {A}Selected Published Papers}{9}{appendix.A}
+\contentsline {chapter}{Abbreviations}{11}{appendix*.10}
+\contentsline {chapter}{List of Theorems}{13}{appendix*.11}
+\contentsline {section}{Proposition}{13}{section*.12}
+\contentsline {section}{Definitions}{13}{section*.13}
+\contentsline {chapter}{Bibliography}{15}{section*.15}

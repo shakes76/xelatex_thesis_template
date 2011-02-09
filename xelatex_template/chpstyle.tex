@@ -1,0 +1,32 @@
+%-----------------SVN-----------------
+\svnid{$Id$}
+
+%-----------------Book Style-----------------
+\makeheadstyles{thesis}{%
+% book changes
+\renewcommand*{\booknamefont}{\huge\sffamily\bfseries}
+\renewcommand*{\booknumfont}{\huge\sffamily\bfseries}
+\renewcommand*{\booktitlefont}{\Huge\sffamily\bfseries}
+\renewcommand*{\midbookskip}{\par\vskip 2\onelineskip}%
+% part changes
+\renewcommand*{\partnamefont}{\huge\bfseries\sffamily}
+\renewcommand*{\partnumfont}{\sffamily\bfseries\huge}
+\renewcommand*{\parttitlefont}{\Huge\bfseries\sffamily}
+\renewcommand*{\midpartskip}{\par\vskip 2\onelineskip}%
+%Chapter Style
+\chapterstyle{veelo} %Chapter Style Type (see memoir package docs)
+\setlength{\beforechapskip}{12mm} %Shorten number
+\renewcommand*{\chapnamefont}{\sffamily\bfseries\LARGE\flushright}
+\renewcommand*{\chapnumfont}{\sffamily\bfseries\Huge}
+\renewcommand*{\chaptitlefont}{\sffamily\HUGE\bfseries\flushright}
+% section
+\setsecheadstyle{\sffamily\Large\bfseries\raggedright}%
+% % subsection
+\setsubsecheadstyle{\sffamily\large\bfseries\raggedright}%
+% % subsubsection
+\setsubsubsecheadstyle{\sffamily\normalsize\bfseries\raggedright}%
+% % paragraph
+\setparaheadstyle{\normalfont\normalsize\bfseries}%
+% % subparagraph
+\setsubparaheadstyle{\normalfont\normalsize\bfseries}
+}

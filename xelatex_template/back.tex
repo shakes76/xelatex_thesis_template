@@ -1,0 +1,17 @@
+%-----------------SVN-----------------
+\svnid{$Id: back.tex 113 2009-07-03 12:48:18Z shakes $}
+
+%Abbreviations
+\input{abbrv}
+
+%Theorems
+\chapter{List of Theorems}
+\theoremlisttype{allname}
+\section{\theoremTag}
+\listtheorems{\theoremDef}
+\section{Definitions}
+\listtheorems{\definitionDef}
+
+%Indices
+\renewcommand{\indexname}{Citation Index} % Name of index
+\printindex[\citeindexfile]

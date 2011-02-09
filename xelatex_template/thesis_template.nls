@@ -1,0 +1,74 @@
+\begin{thenomenclature} 
+
+ \nomgroup{A}
+
+  \item [{$\circDiffSymbol$}]\begingroup The circular difference operator\nomeqref {0}
+		\nompageref{1}
+  \item [{$\circShiftSymbol$}]\begingroup The circulant shift operator\nomeqref {0}
+		\nompageref{1}
+  \item [{$\circSymbol$}]\begingroup A circulant matrix\nomeqref {0}
+		\nompageref{1}
+  \item [{$\complexSymbol$}]\begingroup Complex number symbol\nomeqref {0}
+		\nompageref{1}
+  \item [{$\conjugate$}]\begingroup The Hermitian conjugate\nomeqref {0}
+		\nompageref{1}
+  \item [{$\diagSymbol$}]\begingroup A diagonal matrix\nomeqref {0}
+		\nompageref{1}
+  \item [{$\dimSymbol$}]\begingroup Denotes the number of dimensions\nomeqref {0}
+		\nompageref{1}
+  \item [{$\FFTfirstIndex$}]\begingroup The index for the first dimension in Fourier space\nomeqref {0}
+		\nompageref{1}
+  \item [{$\FFTsecondIndex$}]\begingroup The index for the second dimension in Fourier space\nomeqref {0}
+		\nompageref{1}
+  \item [{$\firstIndex$}]\begingroup The index for the first dimension\nomeqref {0}
+		\nompageref{1}
+  \item [{$\FourierSymbol$}]\begingroup The Fourier matrix\nomeqref {0}
+		\nompageref{1}
+  \item [{$\ghostNumberSymbol$}]\begingroup The number of \ghostsTag\nomeqref {0}
+		\nompageref{1}
+  \item [{$\ghostSymbol$}]\begingroup The \ghostTag~operator\nomeqref {0}
+		\nompageref{1}
+  \item [{$\iterIndex$}]\begingroup The index for the denoting an iteration step\nomeqref {0}
+		\nompageref{1}
+  \item [{$\mGhostSymbol$}]\begingroup A \ghostTag~$m$-value\nomeqref {0}
+		\nompageref{1}
+  \item [{$\MinkowskiSymbol$}]\begingroup Denotes the operation of Minkowski Addition\nomeqref {0}
+		\nompageref{1}
+  \item [{$\modulus$}]\begingroup The general modulus symbol\nomeqref {0}
+		\nompageref{1}
+  \item [{$\monomialSymbol$}]\begingroup A monomial matrix\nomeqref {0}
+		\nompageref{1}
+  \item [{$\mVecSymbol$}]\begingroup A vector of $m$-values\nomeqref {0}
+		\nompageref{1}
+  \item [{$\NumberSymbol$}]\begingroup The Number Theoretic matrix\nomeqref {0}
+		\nompageref{1}
+  \item [{$\numberSymbol$}]\begingroup The number of elements\nomeqref {0}
+		\nompageref{1}
+  \item [{$\originVecSymbol$}]\begingroup The position vector of the origin\nomeqref {0}
+		\nompageref{1}
+  \item [{$\oversamplingSymbol$}]\begingroup The oversampling matrix\nomeqref {0}
+		\nompageref{1}
+  \item [{$\permuteSymbol$}]\begingroup A permutation matrix\nomeqref {0}
+		\nompageref{1}
+  \item [{$\primeSymbol$}]\begingroup A prime number\nomeqref {0}
+		\nompageref{1}
+  \item [{$\primRootSymbol$}]\begingroup A primitive root of $\modulus$\nomeqref {0}
+		\nompageref{1}
+  \item [{$\rootPowerSymbol$}]\begingroup A power of $\rootSymbol$\nomeqref {0}
+		\nompageref{1}
+  \item [{$\rootSymbol$}]\begingroup A root of a finite transform\nomeqref {0}
+		\nompageref{1}
+  \item [{$\secondIndex$}]\begingroup The index for the second dimension\nomeqref {0}
+		\nompageref{1}
+  \item [{$\thirdIndex$}]\begingroup The index for the first dimension\nomeqref {0}
+		\nompageref{1}
+  \item [{$\totientSymbol$}]\begingroup The Euler totient function\nomeqref {0}
+		\nompageref{1}
+  \item [{$\transformFourier$}]\begingroup The Fourier Transform\nomeqref {0}
+		\nompageref{1}
+  \item [{$\transformRadon$}]\begingroup The Radon Transform\nomeqref {0}
+		\nompageref{1}
+  \item [{$\tVecSymbol$}]\begingroup A vector of the translates $t$\nomeqref {0}
+		\nompageref{1}
+
+\end{thenomenclature}
